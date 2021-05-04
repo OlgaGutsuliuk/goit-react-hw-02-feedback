@@ -11,7 +11,6 @@ class FeedBack extends Component {
   };
 
   handleIncrement = event => {
-    console.log(event);
     let name = event.target.name;
     this.setState(prevState => ({
       [name]: prevState[name] + 1
