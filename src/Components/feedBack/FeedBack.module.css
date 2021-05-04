@@ -1,0 +1,28 @@
+.container {
+  width: 400px;
+  padding: 20px;
+}
+
+.heading {
+  font-size: 20px;
+  color: brown;
+}
+
+.btn {
+  margin-right: 15px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+}
+.btn:last-child {
+  margin-right: 0px;
+}
+
+.forks {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.forks:last-child {
+  margin-bottom: 0px;
+}
